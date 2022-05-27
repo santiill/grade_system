@@ -6,7 +6,7 @@ const API = axios.create({
   baseURL: "https://grading-alatoo.herokuapp.com/",
   headers: {
     "Content-type": "multipart/form-data",
-    Authorization: "Bearer" + token.access_token,
+    // Authorization: "Bearer" + token.access_token,
   },
 });
 
@@ -14,7 +14,7 @@ const API2 = axios.create({
   baseURL: "https://grading-alatoo.herokuapp.com/",
   headers: {
     "Content-type": "application/json",
-    Authorization: `Bearer ${token.access_token}`,
+    // Authorization: `Bearer ${token.access_token}`,
   },
 });
 

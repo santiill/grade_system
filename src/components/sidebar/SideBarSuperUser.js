@@ -8,7 +8,7 @@ const SidebarSuperUser = () => {
     <div className={s.sidebar_container}>
       <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
-        to="/*"
+        to="/registerUsers"
       >
         Регистрация
       </NavLink>
@@ -20,7 +20,7 @@ const SidebarSuperUser = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
-        to="/studentProfile"
+        to="/*"
       >
         Профили студентов
       </NavLink>

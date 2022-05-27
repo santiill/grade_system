@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     dispatch(getListSubjects());
     console.log("hbsdj");
-    // role === undefined && navigate("/login");
+    localStorage.getItem("token") ? navigate("/*") : navigate("/login");
   }, []);
 
   return (
