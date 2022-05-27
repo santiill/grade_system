@@ -5,6 +5,7 @@ import s from "./Sidebar.module.css";
 
 export const logout = () => {
   localStorage.clear("token");
+  window.location.reload();
 };
 
 const SidebarStudent = () => {

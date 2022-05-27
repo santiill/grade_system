@@ -12,6 +12,7 @@ export const login = (data, navigate) => {
     console.log("login_data: ", res);
     localStorage.setItem("token", JSON.stringify(res.data));
     navigate("/*");
+    window.location.reload();
   });
 };
 

@@ -15,8 +15,12 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/*" element={<App />} />
-          <Route path="/login" element={<Auth />} />
+          {localStorage.getItem("token") && (
+            <Route path="/*" element={<App />} />
+          )}
+          {!localStorage.getItem("token") && (
+            <Route path="/*" element={<Auth />} />
+          )}
         </Routes>
       </BrowserRouter>
     </Provider>
