@@ -1,0 +1,25 @@
+.input_cont {
+    font-size: large;
+    text-align: start;
+    margin-top: 15px;
+    width: 100%;
+}
+.white_label {
+    color: white;
+    font-weight: 500;
+}
+.dark_label {
+    color: rgb(33, 30, 30);
+    font-weight: 500;
+}
+.input {
+    height: 45px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    /* border: none; */
+    outline: none;
+    margin-top: 5px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
