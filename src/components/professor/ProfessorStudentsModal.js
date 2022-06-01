@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import ss from "../superUser/baseSuperUserStyles.module.css";
+import "../baseStyles.css";
 import { useFormik } from "formik";
 import Input from "../base/input/Input";
 import { useDispatch, useSelector } from "react-redux";
@@ -11,6 +12,7 @@ import {
   resetProfile,
 } from "../../redux2/actions/superUserAction";
 import Button from "../base/button/Button";
+import { msData } from "./md";
 
 export default function ProfessorStudentsModal({ open, close }) {
   const profile = useSelector((state) => state.superUser.profile);
@@ -61,11 +63,12 @@ export default function ProfessorStudentsModal({ open, close }) {
       >
         <Box sx={style}>
           <form onSubmit={formik.handleSubmit} className={ss.form}>
+            <p className="modal_title">List of students</p>
             <ol>
-              <li>{profile.advisor}</li>
+              {msData.map((st) => (
+                <li className="list_text">{st.name}</li>
+              ))}
             </ol>
-
-            <Button type="submit" value="register" />
           </form>
         </Box>
       </Modal>

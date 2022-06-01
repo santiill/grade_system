@@ -19,9 +19,9 @@ const SidebarStudent = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
-        to="/clients"
+        to="/statisctics"
       >
-        Subjects
+        Statistics
       </NavLink>
       {/* <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 .form_title {
-    font-size: 32px;
+    font-size: 37px;
     font-family: inherit;
     color: white;
 }
@@ -26,6 +28,7 @@
 }
 .input_cont {
     text-align: start;
+    
 }
 .button {
     width: 100%;
@@ -51,3 +54,28 @@
     background-color: #1fc2cb !important;
     color: #fff;
 }
+.list_text {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 10px;
+}
+.modal_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .css-1pclhgl-MuiTable-root {
+        min-width: 0px;
+    }
+    .header:active ~ .sidebar {
+        left: 0;
+    }
+  }

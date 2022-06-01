@@ -9,3 +9,15 @@
 .header_text {
     font-size: 18px;
 }
+.dn_icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .dn_title {
+        display: none;
+    }
+    .db_icon {
+        display: block;
+    }
+  }

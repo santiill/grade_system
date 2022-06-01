@@ -11,6 +11,8 @@ import SidebarStudent from "./components/sidebar/SidebarStudent";
 import Sidebar from "./components/sidebar/SidebarStudent";
 import SidebarSuperUser from "./components/sidebar/SideBarSuperUser";
 import SidebarTeacher from "./components/sidebar/SidebarTeacher";
+import GradesList from "./components/student/GradesList";
+import StudentGradeStatistics from "./components/student/Statistics";
 import RegisterStudentProfile from "./components/superUser/RegisterStudentProfile";
 import RegisterSubject from "./components/superUser/RegisterSubject";
 import RegisterUsers from "./components/superUser/RegisterUsers";
@@ -19,6 +21,7 @@ import Students from "./components/superUser/StudentsList";
 import Subjects from "./components/superUser/Subjects";
 import SuperModal from "./components/superUser/SuperModal";
 import { getListSubjects } from "./redux2/actions/superUserAction";
+import "./components/baseStyles.css";
 // import Chat from "./components/sections/chat/Chat";
 
 function App() {
@@ -62,8 +65,8 @@ function App() {
         )}
         {role.is_student == true && (
           <Routes>
-            <Route path="/*" element={<Appointments />} />
-            <Route path="/rating" element={<Rating />} />
+            <Route path="/*" element={<GradesList />} />
+            <Route path="/statisctics" element={<StudentGradeStatistics />} />
           </Routes>
         )}
       </div>

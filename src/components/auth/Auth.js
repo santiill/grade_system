@@ -42,13 +42,11 @@ const Auth = () => {
             className={s.logo}
             src="https://st-1.akipress.org/st_all/bilim/9/1519540999.2.jpg"
           />
-          <hr className={s.line} />
+          <h1 className={s.title}>
+            Computer Science
+            <br /> Department
+          </h1>
         </div>
-        <h1 className={s.title}>
-          Ala-Too
-          <br /> International
-          <br /> University
-        </h1>
         <form onSubmit={formik.handleSubmit} className={s.form}>
           <h4 className="form_title">Login</h4>
           <Input name="username" onChange={formik.handleChange} label="id" />

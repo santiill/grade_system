@@ -20,3 +20,16 @@
   position: fixed;
   top: 80px;
 }
+@media only screen and (max-width: 600px) {
+  .App {
+    display: initial;
+  }
+  .sidebar {
+    position: absolute;
+    left: -250px;
+  transition: 0.5s;
+  }
+  .content {
+    padding-top: 100px;
+  }
+}
