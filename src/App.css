@@ -29,7 +29,13 @@
     left: -250px;
   transition: 0.5s;
   }
+  .open_sidebar {
+    position: absolute;
+    transition: 0.5s;
+    left: 0;
+  top: 80px;
+  }
   .content {
-    padding-top: 100px;
+    padding: 100px 20px 40px;
   }
 }

@@ -49,7 +49,11 @@ const Auth = () => {
         </div>
         <form onSubmit={formik.handleSubmit} className={s.form}>
           <h4 className="form_title">Login</h4>
-          <Input name="username" onChange={formik.handleChange} label="id" />
+          <Input
+            name="username"
+            onChange={formik.handleChange}
+            label="student id"
+          />
           <Input
             name="password"
             onChange={formik.handleChange}

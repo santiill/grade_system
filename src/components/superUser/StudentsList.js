@@ -72,7 +72,7 @@ const Students = () => {
             <TableRow>
               <StyledTableCell>#</StyledTableCell>
               <StyledTableCell align="center">Name</StyledTableCell>
-              <StyledTableCell align="center">Practice</StyledTableCell>
+              <StyledTableCell align="center">Email</StyledTableCell>
               {/* <StyledTableCell align="center">Carbs&nbsp;(g)</StyledTableCell>
             <StyledTableCell align="center">Protein&nbsp;(g)</StyledTableCell> */}
             </TableRow>

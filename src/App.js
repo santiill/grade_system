@@ -1,5 +1,5 @@
 import { Modal, Rating } from "@mui/material";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
@@ -35,12 +35,14 @@ function App() {
     localStorage.getItem("token") ? navigate("/*") : navigate("/login");
   }, []);
 
+  const [bar, setBar] = useState(false);
+
   return (
     <div className="App">
       <div className="header">
-        <Header />
+        <Header openBar={setBar} bar={bar} />
       </div>
-      <div className="sidebar">
+      <div className={bar ? "open_sidebar" : "sidebar"}>
         {role.is_superuser == true && <SidebarSuperUser />}
         {role.is_professor == true && <SidebarTeacher />}
         {role.is_student == true && <SidebarStudent />}

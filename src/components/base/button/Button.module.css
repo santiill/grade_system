@@ -11,3 +11,6 @@
     font-weight: 700;
     margin-top: 30px;
 }
+.button:active {
+    background: rgb(54, 130, 181);
+}

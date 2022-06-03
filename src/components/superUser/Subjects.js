@@ -77,7 +77,7 @@ const Subjects = () => {
             <TableRow>
               <StyledTableCell>#</StyledTableCell>
               <StyledTableCell /* align="right" */>Name</StyledTableCell>
-              <StyledTableCell /* align="right" */>practice</StyledTableCell>
+              <StyledTableCell /* align="right" */>Practice</StyledTableCell>
               {/* <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell>
             <StyledTableCell align="right">Protein&nbsp;(g)</StyledTableCell> */}
             </TableRow>

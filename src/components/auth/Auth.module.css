@@ -47,19 +47,20 @@
     }
     .form {
         width: 100%;
+        margin-top: 90px;
     }
     .title {
         font-size: 25px;
     }
     .logo {
-        width: 70px;
+        width: 55px;
     }
     .frame_cont {
         display: flex;
         flex-direction: initial;
         align-items: center;
         text-align: center;
-        gap: 10px;
+        gap: 15 px;
         position: absolute;
         top: 30px;
     }
