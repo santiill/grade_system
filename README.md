@@ -1,4 +1,20 @@
+# Team members:
+1. Aiana Abdyrakhmanova ([backend repository](https://github.com/luianqi/grading-system))
+2. Zebiniso Sultonmurodova (frontend)
+
+![1](https://user-images.githubusercontent.com/72644178/171859835-a2a39413-3f30-4b55-b305-47c106f5f93d.jpg)
+
+![2](https://user-images.githubusercontent.com/72644178/171859914-668a2871-cb18-4530-b7d0-98b8ba5f9748.jpg)
+
+![3](https://user-images.githubusercontent.com/72644178/171859943-9cde8772-810c-4407-af50-43c5cd91b00a.jpg)
+
+![4](https://user-images.githubusercontent.com/72644178/171860028-0b18b19f-9ead-4835-ab7f-7d90f9fea4af.jpg)
+
+# Deployed to Heroku
+https://grade-system1.herokuapp.com/
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
