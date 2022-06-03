@@ -35,10 +35,32 @@
 .title {
     font-size: 75px;
     color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 .logo {
     width: 150px;
 }
+
+.open_eye{
+    background-image: url(./Vector.svg);
+    width: 30px;
+    height: 29px;
+    position: absolute;
+    top:45px;
+    right: 15px;
+    background-repeat: no-repeat;
+}
+.close_eye{
+    background-image: url(./Union.svg);
+    width: 30px;
+    height: 29px;
+    position: absolute;
+    top:42px;
+    background-repeat: no-repeat;
+    right: 15px;
+}
+
 
 
 @media only screen and (max-width: 600px) {

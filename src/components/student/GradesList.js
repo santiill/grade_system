@@ -65,7 +65,7 @@ const GradesList = () => {
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
             <TableRow>
-              <StyledTableCell>#</StyledTableCell>
+              <StyledTableCell>&#8470;</StyledTableCell>
               <StyledTableCell /* align="right" */>
                 Subject name
               </StyledTableCell>

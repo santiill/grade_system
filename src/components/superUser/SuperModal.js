@@ -66,7 +66,7 @@ export default function SuperModal({ open, close }) {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+            Alica Kim
           </Typography>
           <form onSubmit={formik.handleSubmit} className={ss.form}>
             {mapInput.map((item) => {

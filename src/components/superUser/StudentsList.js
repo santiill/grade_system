@@ -70,7 +70,7 @@ const Students = () => {
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
             <TableRow>
-              <StyledTableCell>#</StyledTableCell>
+              <StyledTableCell>&#8470;</StyledTableCell>
               <StyledTableCell align="center">Name</StyledTableCell>
               <StyledTableCell align="center">Email</StyledTableCell>
               {/* <StyledTableCell align="center">Carbs&nbsp;(g)</StyledTableCell>

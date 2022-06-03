@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "./Auth.module.css";
 import "../baseStyles.css";
 import Input from "../base/input/Input";
@@ -11,7 +11,11 @@ import { login } from "../../redux2/actions/superUserAction";
 
 const Auth = () => {
   const navigate = useNavigate();
+  const [open, setOpen] = useState(true);
 
+  const toggle = () => {
+    setOpen(!open);
+  };
   const formik = useFormik({
     initialValues: {
       username: "",
@@ -49,16 +53,21 @@ const Auth = () => {
         </div>
         <form onSubmit={formik.handleSubmit} className={s.form}>
           <h4 className="form_title">Login</h4>
-          <Input
-            name="username"
-            onChange={formik.handleChange}
-            label="student id"
-          />
-          <Input
-            name="password"
-            onChange={formik.handleChange}
-            label="password"
-          />
+          <Input name="username" onChange={formik.handleChange} label="Login" />
+          <div style={{ position: "relative" }}>
+            <Input
+              name="password"
+              onChange={formik.handleChange}
+              label="Password"
+              type={open ? "password" : "text"}
+            />
+            {open === false ? (
+              <div onClick={toggle} className={s.open_eye} />
+            ) : (
+              <div onClick={toggle} className={s.close_eye} />
+            )}
+          </div>
+
           <Button type="submit" value="Login" />
         </form>
       </div>

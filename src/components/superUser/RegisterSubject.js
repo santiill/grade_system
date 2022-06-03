@@ -32,7 +32,7 @@ const RegisterSubject = () => {
   });
   return (
     <>
-      <h2>Register Subject</h2>
+      <h2>Subject registration</h2>
       <div className={ss.flex_center}>
         <form onSubmit={formik.handleSubmit} className={ss.form}>
           {mapInput.map((item) => {

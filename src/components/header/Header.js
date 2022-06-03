@@ -7,7 +7,7 @@ const Header = ({ openBar, bar }) => {
 
   return (
     <div className={s.header_cont}>
-      <p className={`${s.header_text} ${s.dn_title}`}>Grade system</p>
+      <p className={`${s.header_text} ${s.dn_title}`}>Grading system</p>
       <p
         onClick={() => openBar(!bar)}
         className={`${s.db_icon} ${s.dn_icon} menu_icon`}

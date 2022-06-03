@@ -29,7 +29,7 @@ const RegisterStudentProfile = () => {
   });
   return (
     <>
-      <h2>Register Student Profile</h2>
+      <h2>Student profile registration</h2>
       <div className={ss.flex_center}>
         <form onSubmit={formik.handleSubmit} className={ss.form}>
           {mapInput.map((item) => {

@@ -72,7 +72,7 @@ export default function SuperSubjectsModal({ open, close, id }) {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+            Web Development
           </Typography>
           <form onSubmit={formik.handleSubmit} className={ss.form}>
             {mapInput.map((item) => {

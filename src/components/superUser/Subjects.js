@@ -75,7 +75,7 @@ const Subjects = () => {
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
             <TableRow>
-              <StyledTableCell>#</StyledTableCell>
+              <StyledTableCell>&#8470;</StyledTableCell>
               <StyledTableCell /* align="right" */>Name</StyledTableCell>
               <StyledTableCell /* align="right" */>Practice</StyledTableCell>
               {/* <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell>

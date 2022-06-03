@@ -49,7 +49,7 @@ const StudentGradeStatistics = () => {
       //     borderWidth: 3,
       //   },
       {
-        label: "Оценка",
+        label: "Grade",
         data: [0, 70, 85, 47, 33, 90],
         pointStyle: "circle",
         pointRadius: 10,

@@ -10,25 +10,25 @@ const SidebarSuperUser = () => {
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
         to="/registerUsers"
       >
-        Регистрация
+        User registration
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
         to="/registerSubject"
       >
-        Регистрация предмета
+        Subject registration
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
         to="/*"
       >
-        Профили студентов
+        Student's profile
       </NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? s.activeL : s.sidebar_item)}
         to="/subjects"
       >
-        Предметы
+        Subjects
       </NavLink>
       <Link className={s.sidebar_item} onClick={logout} to="/login">
         Logout

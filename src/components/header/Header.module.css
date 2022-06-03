@@ -8,6 +8,8 @@
 }
 .header_text {
     font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 .dn_icon {
     display: none;
@@ -19,5 +21,6 @@
     }
     .db_icon {
         display: block;
+        font-size: 25px;
     }
   }
